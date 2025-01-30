@@ -13,10 +13,7 @@ const Main = () => {
     <>
       <main>
         < Outlet/>
-        <Conteudo />
-        <LivroDoDia/>
-        <Videos/>
-        <Contato />
+        
       </main>
     </>
   );
