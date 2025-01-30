@@ -76,3 +76,76 @@ header {
   li a:hover {
     color: var(--snow-white);
   }
+
+  @media screen and (min-width: 769px) and (max-width: 1279px) {
+    header {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem;
+      width: 100%;
+      background-color: var(--charcoal);
+      flex-wrap: wrap;
+    }
+    
+    #logo img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+    
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    ul li {
+      margin-left: 1rem;
+    }
+    
+    ul li a {
+      text-decoration: none;
+      color: var(--soft--peach);
+      font-size: 1rem;
+    }
+    
+    form {
+      display: flex;
+    }
+    
+    #pesquisa {
+      height: 2.2rem;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border: 2px solid var(--dusty-rose);
+      padding: 0.5rem;
+    }
+    
+    #pesquisa:focus {
+      border-color: var(--soft--peach);
+      outline: none;
+    }
+    
+    #button-search {
+      background-color: var(--taupe);
+      font-family: var(--font-content);
+      font-weight: 500;
+      color: var(--snow-white);
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+      border: none;
+      padding: 8px;
+      width: 8rem;
+      height: 2.2rem;
+    }
+    
+
+  }
