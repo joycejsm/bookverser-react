@@ -1,0 +1,73 @@
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-highlight);
+  color: var(--charcoal);
+  font-weight: lighter;
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.406);
+}
+
+.losango img {
+    width: 12%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0;
+    width: 25rem;
+    height: 31.25rem;
+    max-width: 90%;
+    min-width: 10rem;
+    border: 0.5px solid var(--ash-brown);
+    position: absolute;
+    top: 24rem;
+    left: 20rem;
+    z-index: 1;
+  }
+  h1{
+    font-family: var(--font-highlight);
+  }
+  .grid-item {
+    border: 0.5px solid var(--ash-brown);
+  }
+  
+  .foto-1 {
+    margin-left: 15rem;
+  }
+  
+  .foto-1 img {
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    width: 23.75rem;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  #intro {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  
+  #txt1 {
+    margin: 2rem;
+    font-size: 1.5rem;
+  }
+  #conteudo {
+    align-content: center;
+    
+  }  

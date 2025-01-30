@@ -1,0 +1,78 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr auto);
+    padding: 2rem;
+    width: 100vw;
+    background-color: var(--charcoal);
+  }
+  
+  #logo img {
+    grid-column: 1/2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  ul {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-left: 2rem;
+  }
+  
+  form {
+    grid-column: 3/4;
+    display: flex;
+  }
+  #button-search {
+    background-color: var(--taupe);
+    font-family: var(--font-content);
+    font-weight: 500;
+    color: var(--snow-white);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: none;
+    margin-top: 0.4rem;
+    padding: 8px;
+    width: 8rem;
+    height: 2.2rem;
+  }
+  
+  #pesquisa {
+    height: 2.2rem;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 2px solid var(--dusty-rose);
+    margin-top: 8px;
+  }
+  
+  #pesquisa:focus {
+    border-color: var(--soft--peach);
+    outline: none;
+  }
+  
+  li {
+    margin-top: 2rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    font-weight: 500;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: var(--soft--peach);
+  }
+  li a:hover {
+    color: var(--snow-white);
+  }

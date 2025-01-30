@@ -1,0 +1,44 @@
+#title-autor {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-autor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25rem;
+    margin: 3rem;
+  }
+  
+  #autores h3 {
+    font-family: var(--font-highlight);
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+  .autor {
+    display: flex;
+    justify-content: center;
+  }
+  .autor img {
+    margin: 3rem;
+    width: 10rem;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  span {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--charcoal);
+  }
+  
+  #linkedin-icon {
+    width: 1.5rem;
+  }

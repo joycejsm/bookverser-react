@@ -1,0 +1,19 @@
+
+footer{
+  background-color: var(--dusty-rose);
+}
+#rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+  }
+  
+#rodape > li > a{
+  color: var(--ash-brown);
+}
+
+#rodape > li > a:hover{
+  color: var(--snow-white);
+  transition-duration: 0.5s;
+}

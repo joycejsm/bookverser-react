@@ -1,0 +1,69 @@
+
+#contato {
+  background-color: var(--charcoal);
+}
+#contact {
+  color: var(--snow-white);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+  margin-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+#title-contact {
+  color: var(--snow-white);
+  font-family: var(--font-highlight);
+  text-align: center;
+  margin: 3rem;
+  font-size: 2rem;
+  padding-top: 3rem;
+  font-weight: lighter;
+}
+#container-form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#nome,
+#sobrenome,
+#iemail {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 15px;
+  
+}
+
+#nome:focus,
+#sobrenome:focus,
+#iemail:focus,
+#texto:focus {
+ outline: 2px solid var(--dusty-rose);
+ transition: outline-color 0.3s ease-in-out;
+}
+
+#texto {
+  border-radius: 15px;
+  outline: none;
+  width: 20rem;
+  height: 15rem;
+  resize: none;
+}
+.botao {
+  background: linear-gradient(to bottom, var(--dusty-rose), var(--taupe));
+  font-family: var(--font-content);
+  font-weight: 500;
+  color: var(--snow-white);
+  border-radius: 40px;
+  border: none;
+  padding: 0px;
+  width: 7rem;
+  height: 3rem;
+}
+
+.botao:hover {
+  background: var(--taupe);
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Special+Elite&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Special+Elite&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-highlight: "Special Elite";
+  --font-content: "Open Sans", sans-serif;
+  --taupe: #85796d;
+  --light-taupe: #cdbcab;
+  --dusty-rose: #c7adab;
+  --soft--peach: #e8d2c3;
+  --charcoal: #393135;
+  --ash-brown: #564e4c;
+  --misty-mauve: #b19a99;
+  --snow-white: #f1f1f1;
+  --white: #ffffff;
+}
+body {
+  font-family: var(--font-content);
+  overflow-x: hidden;
+}
